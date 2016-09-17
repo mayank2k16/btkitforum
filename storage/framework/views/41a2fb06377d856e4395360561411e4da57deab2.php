@@ -40,7 +40,7 @@
                 </div>
             </li>
             <?php endif; ?>
-            
+
             <li class="logo hidden-xs">
                 <a href="<?php echo e(URL::to('/dashboard')); ?>">F0rum Admin Page</a>
             </li>
@@ -89,7 +89,7 @@
     <?php if(!Auth::guest()): ?>
     <section>
         <aside id="sidebar" class="sidebar c-overflow">
-            
+
 <!--Start sidebar links -->
             <ul class="main-menu">
 
@@ -106,7 +106,7 @@
                 </li>
 
                 <li class="sub-menu">
-                  
+
                     <a href=""><i class="zmdi zmdi-local-mall zmdi-hc-fw"></i>Orders</a>
 
                     <ul>
@@ -152,18 +152,18 @@
             <!-- End sidebar links -->
         </aside>
 
-        
+
         <input type="hidden" id="hidden" />
 
 
-    </section> 
-    
-      
+    </section>
+
+
     <?php endif; ?>
      <!-- End Sidebar -->
- 
+
       <section>
-          
+
 <br>
 <br>
 <br>
@@ -179,12 +179,12 @@
       </div>
       <div class="modal-body">
          <h3>Amount Rs. </h3>
-         <button type="button" class="btn btn-danger">Edit</button> 
-          
+         <button type="button" class="btn btn-danger">Edit</button>
+
           <div id="update">
-          
-             <button type="button" class="btn btn-danger">cancel</button> 
-          
+
+             <button type="button" class="btn btn-danger">cancel</button>
+
           </div>
       </div>
       <div class="modal-footer">
@@ -275,7 +275,7 @@
                    return false;
                    }
                else{
-                  
+
                    $.get(url,{'checkout':inputValue}, function(){
                        swal({ title: "Amount saved",
                                timer: 2000,
@@ -289,7 +289,7 @@
     });
 */
           $('#sa-title').click(function(){
-                
+
             });
 
 </script>
